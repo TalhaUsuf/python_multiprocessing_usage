@@ -7,7 +7,7 @@ from time import sleep, perf_counter
 
 
 arg = argparse.ArgumentParser(description="single queueu multi worker")
-arg.add_argument('-d', '--dir', default="C:/Users/Talha/Downloads/dummy_images", help='path to the dir having images')
+arg.add_argument('-d', '--dir', default="dummy_images", help='path to the dir having images')
 parser = arg.parse_args()
 
 
